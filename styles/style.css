@@ -65,6 +65,24 @@ nav {
     border: none;
 }
 
+#recipe-list {
+    display: grid;
+    grid-template-columns: 2;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    height: 400px;
+}
+
+.left-list {
+    display: block;
+    float: left;
+}
+
+.right-list {
+    display: block;
+    float: right;
+}
+
 h3 {
     font-size: 1.5rem;
     font-family: 'Oswald', sans-serif;
@@ -82,18 +100,6 @@ h3 {
 
 p {
     border: solid 2px greenyellow;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* width: 450px; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: auto;
-    margin: 20px; */
     display: block;
     margin-left: 45px;
     margin-right: 45px;
@@ -109,10 +115,19 @@ p {
    flex-direction: column;
    justify-content: start;
     height: 50px;
+}
+
+#author-bio {
+    height: 150px;
+    display: block;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+h2 {
 
 }
 
-  
 footer {
     border: solid 4px blue;
     position: flex;
@@ -121,6 +136,6 @@ footer {
     display: flex;
     justify-content: center;
     font-size: .7rem;
-
 }
-<img src="./assets/list-bg.png" alt="note">
+
+/* <img src="./assets/list-bg.png" alt="note"> */
