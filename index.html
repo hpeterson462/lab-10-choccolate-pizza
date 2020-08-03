@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
@@ -14,80 +18,112 @@
 
 <body>
     <header>
-        <img src="./assets/logo.png" alt="logo">
-        <p>Delicious</p>
-        <p>The Best Food Blog on the Web</p>
+        <img id ="logo" src="./assets/logo.png" alt="logo">
+        <h1>Delicious</h1>
+        <h2 id="size-small">The Best Food Blog on the Web</h2>
         <nav>
             <img src="./assets/fb-icon.png" alt="fb-icon">
             <img src="" alt="">
             <img src="./assets/twit-icon.png" alt="">
             <img src="./assets/gp-icon.png" alt="">
             <img src="./assets/insta-icon.png" alt="">
-            <img src="./assets/list-bg.png" alt="">
             <img src="./assets/pint-icon.png" alt="">
             <img src="./assets/rss-icon.png" alt="">
             <img src="./assets/mail-icon.png" alt="">
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Chocolate Pizza</h1>
-            <p>POSTED ON 17 JULY 2020/DESSERTS</p>
-            <img src="./assets/print-icon.png" alt="print">
+        <section id="recipe-title">
+            <h3>Chocolate Pizza</h3>
+            <h2 id="size-medium">POSTED ON 17 JULY 2020/DESSERTS</h3>
+            <img id="print" src="./assets/print-icon.png" alt="print">
         </section>
         <section>
-            <img src="./assets/choco-pizza.png" alt="">
+            <img id="choco-pizza" src="./assets/choco-pizza.png" height=302px width=450px  alt="chocolate pizza!">
         </section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt recusandae quae facilis blanditiis
+        <p>Recipe stuff here heree here here herherhehrehehre Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt recusandae quae facilis blanditiis
             architecto ullam velit? Odio distinctio repellendus, unde dolore quas vitae dicta ducimus placeat at
             voluptatibus numquam.
-            <br>
+        </p>
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, odio ab nam quibusdam ea aut tenetur
             voluptatibus molestiae dignissimos, iusto voluptates quos saepe enim error rerum, a cumque eius quidem.
-            <br>
+        </p>
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio possimus, veniam explicabo quod, placeat
             voluptate provident autem, sunt maiores eius totam dolorum expedita officia dolore? Fugit tempora maiores
             voluptates quaerat.
         </p>
-        <section>
-            <img src="./assets/list-bg.png" alt="">
             <section id="recipe-list">
-                <input type="radio" name="milk" />1 1/2 cups milk
-                <input type="radio" name="mascarpone" />1/2 cup mascarpone
-                <input type="radio" name="salt" />1/2 tsp pink salt
-                <input type="radio" name="figs" />1 lb black mission figs
-                <input type="radio" name="brown-sugar" />1/2 cup brown
-                <input type="radio" name="water" />2-4 Tbsp water
-            </section>
-            <section>
-                <input type="radio" name="cream" />1 1/2 cups heavy cream
-                <input type="radio" name="sugar" />1/3 granulated sugar
-                <input type="radio" name="eggs" />2 egg yolks
-                <input type="radio" name="lemon" />1 lemon juiced
-                <input type="radio" name="butter" />2 Tbsp butter
-                <input type="radio" name="pecans" />1 cup honey roasted pecans roughly chopped
-            </section>
+            <form class="left-list">
+                <input id="Option" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option">
+                    1 1/2 cups milk
+                </label
+                <input id="Option1" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option1">
+                    1/2 cup marscapone
+                </label>
+                <input id="Option2" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option2">
+                    1/2 tsp pink salt
+                </label>
+                <input id="Option3" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option3">
+                    1lb Black Mission figs
+                </label>
+                <input id="Option4" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option4">
+                    1/2 cup brown sugar
+                </label>
+                <input id="Option5" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option5">
+                    2-4 tbsp water
+                </label>
+            </form>
+            <form class="right-list">
+                <input id="Option" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option">
+                    1 1/2 cups heavy cream
+                </label>
+                <input id="Option1" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option1">
+                    1/2 cup something else
+                </label>
+                <input id="Option2" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option2">
+                    1/2 tsp another thing
+                </label>
+                <input id="Option3" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option3">
+                    1lb more stuff
+                </label>
+                <input id="Option4" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option4">
+                    1/2 cup also this stuff
+                </label>
+                <input id="Option5" type="checkbox" autocomplete="off">
+                <label class="check box" for="Option5">
+                    2-4 tbsp love
+                </label>
+             </form>
         </section>
         <section id="author-bio">
             <img src="./assets/van-pic.png" alt="author">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam qui similique praesentium
-                provident enim reprehenderit quis pariatur nostrum. Voluptatum et atque non iusto nobis, ipsum optio ex
-                earum numquam.</p>
+            <span>
+              <h2>Vanessa Whatever</h2>
+            Here's some author bio about Vanessa Whatever. </span>
             <button>Share Recipe</button>
+        </section>
+        <section id ="small-logo">
+            <img src="./assets/small-logo.png" alt="small-logo">
         </section>
     </main>
     <footer>
-        <section>
-            <img src="./assets/small-logo.png" alt="small-logo">
-        </section>
         <div>
             <p>Delicious &copy 2020</p>
             <p>All Rights Reserved.</p>
             <p>Proudly published with Ghost.</p>
         </div>
     </footer>
-
-    <script type="module" src="app.js"></script>
-</body>
-
 </html>
